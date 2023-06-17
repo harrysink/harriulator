@@ -1,0 +1,61 @@
+* {
+  font-family: sans-serif;
+}
+.App {
+  background-color: rgb(51, 47, 47);
+  padding: 15px;
+  border-radius: 7px;
+  width: 250px;
+  color: white;
+}
+img {
+  width: 25px;
+  margin: 0px 6px 0px 6px;
+}
+h3 {
+  text-align: right;
+  font-family: Futura;
+  font-size: 1.6em;
+  font-weight: 100;
+}
+form {
+  max-width: 100%;
+}
+.result {
+  text-align: right;
+  font-size: 2em;
+  margin: 30px 0px 10px 10px;
+}
+input,
+button {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+  background-color: rgb(51, 47, 47);
+  min-width: 90%;
+}
+.button-div {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+}
+button {
+  border: 1px solid gray;
+  font-weight: bold;
+  background: gray;
+  margin: 3px;
+}
+button:nth-last-child(3),
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: rgb(194, 55, 31);
+  border: 1px solid rgb(194, 55, 31);
+  font-weight: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
